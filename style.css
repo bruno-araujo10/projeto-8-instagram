@@ -22,7 +22,7 @@ section {
     align-items: center;
     width: 500px;
     position: relative;
-    bottom: 200px;
+    bottom: 350px;
 }
 
 .img-h1 {
@@ -59,7 +59,7 @@ section {
     width: 400px;
     position: relative;
     left: 600px;
-    bottom: 990px;
+    bottom: 1150px;
     height: 600px;
 }
 
@@ -207,7 +207,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 1631px) {
+@media screen and (max-width: 1630px) {
     body {
         width: 100vw;
         height: 100vh;
@@ -558,7 +558,7 @@ body {
 
             .recover-container {
                 width: 100vw;
-                top: 60px;
+                top: 0px;
             }
 
             .h3-recover {
