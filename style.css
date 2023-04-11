@@ -193,10 +193,9 @@ ul {
     justify-content: center;
     justify-content: space-between;
     list-style-type: none;
-    font-weight: 400;
     position: relative;
     top: -130px;
-    left: 80px;
+    left: 180px;
     flex-wrap: wrap;
 
 }
@@ -294,7 +293,6 @@ ul li {
             width: 100%;
             display: flex;
             justify-content: center;
-            font-weight: 400;
             flex-wrap: wrap;
             top: -150px;
             left: 0px;
@@ -473,7 +471,6 @@ body {
             width: 100%;
             display: flex;
             justify-content: center;
-            font-weight: 400;
             flex-wrap: wrap;
             top: -150px;
           }
@@ -519,7 +516,6 @@ body {
             ul {
                 display: flex;
                 justify-content: center;
-                font-weight: 400;
                 margin: 0;
                 padding: 0;
                 flex-wrap: wrap;
@@ -594,7 +590,6 @@ body {
             ul {
                 display: flex;
                 justify-content: center;
-                font-weight: 400;
                 margin: 0;
                 padding: 0;
                 flex-wrap: wrap;
