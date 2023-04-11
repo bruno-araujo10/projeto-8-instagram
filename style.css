@@ -736,3 +736,84 @@ body {
               }
 
     }
+
+    @media screen and (max-width:414px) {
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            overflow: auto;
+        }
+        
+            section {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+            }
+        
+            .container-1 {
+                display: none
+            }
+
+            .container-2 {
+                width: 100%;
+                top: -115px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: solid 1px #000000;
+                position: relative;
+                left: 0px;
+
+            }
+
+            .recover-container {
+                width: 100%;
+                top: 60px;
+            }
+
+            .h3-recover {
+                margin-top: 30px;
+            }
+
+            .obtenha {
+                margin-top: 50px;
+            }
+
+            .img-app {
+                width: 130px;
+                position: relative;
+                right: 10px;
+                top: -20px;
+            }
+
+            footer {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                color: #000000;
+                cursor: pointer;
+                position: relative;
+                bottom: 40px;
+              }
+
+            ul {
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                padding: 0;
+                flex-wrap: wrap;
+                font-size: 14px;
+              }
+              
+              ul li {
+                margin: 0 5px;
+              }
+
+    }
