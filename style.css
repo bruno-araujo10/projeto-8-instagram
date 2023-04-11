@@ -662,7 +662,7 @@ body {
             height: 100vh;
             margin: 0;
             padding: 0;
-            overflow: auto;
+            overflow: scroll;
         }
         
             section {
@@ -680,7 +680,7 @@ body {
 
             .container-2 {
                 width: 100%;
-                top: -125px;
+                top: -115px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -728,6 +728,7 @@ body {
                 margin: 0;
                 padding: 0;
                 flex-wrap: wrap;
+                font-size: 14px;
               }
               
               ul li {
