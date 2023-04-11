@@ -8,6 +8,7 @@
 body {
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 section {
@@ -22,7 +23,7 @@ section {
     align-items: center;
     width: 500px;
     position: relative;
-    bottom: -160px;
+    bottom: -190px;
     height: 50%;
     left: 410px;
 }
@@ -61,7 +62,7 @@ section {
     width: 400px;
     position: relative;
     left: 1000px;
-    bottom: 470px;
+    bottom: 400px;
     height: 600px;
 }
 
@@ -143,12 +144,12 @@ button:active {
 }
 
 .img-app {
-    width: 180px;
+    width: 150px;
     display:flex;
     align-items: center;
     margin-left: 5px;
     cursor: pointer;
-    top: -10px;
+    top: -20px;
     
 }
 
@@ -157,7 +158,7 @@ button:active {
 }
 
 .app {
-    margin: 20px;
+    margin: 10px;
 }
 
 .obtenha {
@@ -173,7 +174,7 @@ button:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px 0px;
+    margin: 9px 0px;
 }
 
 footer {
@@ -194,7 +195,7 @@ ul {
     justify-content: space-between;
     list-style-type: none;
     position: relative;
-    top: -130px;
+    top: -57px;
     left: 180px;
     flex-wrap: wrap;
 
@@ -219,6 +220,7 @@ ul li {
         height: 100vh;
         margin: 0;
         padding: 0;
+        overflow: hidden;
     }
 
     section {
@@ -235,7 +237,7 @@ ul li {
         height: 90vh;
         display: relative;
         align-items: center;
-        bottom: 345px;
+        bottom: 300px;
         left: 25px;
         margin-left: 70px;
     }
@@ -253,7 +255,7 @@ ul li {
             height: 800px;
             z-index: 2;
             right: 500px;
-            top: 300px
+            top: 268px
         }
 
         .container-2 {
@@ -265,7 +267,7 @@ ul li {
             width: 400px;
             position: relative;
             left: -100px;
-            bottom: 170px;
+            bottom: 125px;
             height: 600px;
         }
 
@@ -294,9 +296,8 @@ ul li {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            top: -150px;
+            top: -60px;
             left: 0px;
-            margin-top: 40px;
           }
           
           ul li {
@@ -312,6 +313,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 
 }
 
@@ -339,7 +341,7 @@ body {
         height: 800px;
         z-index: 1;
         right: 55px;
-        top: 270px;
+        top: 310px;
     }
 
     .img-h1 {
@@ -347,7 +349,7 @@ body {
             height: 800px;
             z-index: 2;
             right: 500px;
-            top: 255px
+            top: 263px
         }
 
         .container-2 {
@@ -359,7 +361,7 @@ body {
             border: solid 1px #000000;
             position: relative;
             left: 50px;
-            bottom: 230px;
+            bottom: 200px;
         }
 
         .logo {
@@ -472,7 +474,7 @@ body {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            top: -150px;
+            top: -100px;
           }
           
           ul li {
@@ -487,6 +489,7 @@ body {
             height: 100vh;
             margin: 0;
             padding: 0;
+            overflow: hidden;
         }
         
             section {
@@ -573,12 +576,13 @@ body {
 
     }
 
-    @media screen and (max-width:380px) {
+    @media screen and (max-width:500px) {
         body {
             width: 100vw;
             height: 100vh;
             margin: 0;
             padding: 0;
+            overflow: hidden;
         }
         
             section {
@@ -595,20 +599,20 @@ body {
             }
 
             .container-2 {
-                width: 90%;
-                top: -132px;
+                width: 100%;
+                top: -200px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 border: solid 1px #000000;
                 position: relative;
-                left: 10px;
+                left: 0px;
 
             }
 
             .recover-container {
                 width: 100%;
-                top: 80px;
+                top: 60px;
             }
 
             .h3-recover {
@@ -630,7 +634,7 @@ body {
                 color: #000000;
                 cursor: pointer;
                 position: relative;
-                bottom: 0px;
+                bottom: 100px;
               }
 
             ul {
