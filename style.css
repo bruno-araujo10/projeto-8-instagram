@@ -662,6 +662,7 @@ body {
             height: 100vh;
             margin: 0;
             padding: 0;
+            overflow: auto;
         }
         
             section {
@@ -679,7 +680,7 @@ body {
 
             .container-2 {
                 width: 100%;
-                top: -135px;
+                top: -125px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
