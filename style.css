@@ -498,8 +498,54 @@ body {
             }
         
             .container-1 {
-                display: none
+                width: 100%;
+                height: 100%;
+                display: relative;
+                align-items: center;
+                bottom: 350px;
+                left: -10px;
             }
+        
+            .img-h2 {
+                position: relative;
+                height: 600px;
+                z-index: 1;
+                right: 55px;
+                top: 270px;
+            }
+        
+            .img-h1 {
+                    position: absolute;
+                    height: 600px;
+                    z-index: 2;
+                    right: px;
+                    top: 450px
+                }
+
+                .container-2 {
+                    width: 67%;
+                    height: 50vh;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    border: solid 1px #000000;
+                    position: relative;
+                    left: -20px;
+                    bottom: 130px;
+                }
+
+                .recover-container {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    width: 300px;
+                    height: 90px;
+                    position: relative;
+                    right: 0px;
+                    top: 60px;
+                    border: solid 1px #000000;
+                
+                }
 
             footer {
                 width: 100%;
@@ -549,14 +595,14 @@ body {
             }
 
             .container-2 {
-                width: 100%;
-                top: -242px;
+                width: 90%;
+                top: -132px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 border: solid 1px #000000;
                 position: relative;
-                left: 0px;
+                left: 10px;
 
             }
 
@@ -584,7 +630,7 @@ body {
                 color: #000000;
                 cursor: pointer;
                 position: relative;
-                bottom: 100px;
+                bottom: 0px;
               }
 
             ul {
